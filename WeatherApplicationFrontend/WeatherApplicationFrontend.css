@@ -1,0 +1,54 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#search-section h2,
+#weather-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#location-input {
+    width: 70%;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+#search-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#weather-list {
+    list-style: none;
+    padding: 0;
+}
+
+#weather-list li {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 0.5rem 0;
+}
